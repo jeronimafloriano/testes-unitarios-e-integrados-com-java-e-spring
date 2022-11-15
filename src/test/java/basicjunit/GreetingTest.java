@@ -41,11 +41,4 @@ class GreetingTest {
         System.out.println("4 - After All");
     }
 
-    @Test
-    void testAssumptionTrue(){
-        System.out.println("Teste testAssumptionTrue");
-        assumeTrue("Jeronima".equalsIgnoreCase("Maria"));
-    }
-
-
 }
