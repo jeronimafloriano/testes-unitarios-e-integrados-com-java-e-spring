@@ -1,4 +1,4 @@
-package tdd;
+package basicjunit;
 
 public class Greeting {
 
@@ -9,4 +9,5 @@ public class Greeting {
     public void helloWorld(String name){
         System.out.println("Hello Word " + name);
     }
+
 }

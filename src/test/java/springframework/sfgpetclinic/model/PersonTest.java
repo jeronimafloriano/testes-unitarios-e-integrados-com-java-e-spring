@@ -26,8 +26,26 @@ class PersonTest {
 
         //then
         assertAll("Tests Set",
-                () -> assertEquals("Jeronima", person.getFirstName(), "First Name passed"),
-                () -> assertEquals("Floriano", person.getLastName(), "Last Name passed")
+                () -> assertEquals("Jeronima", person.getFirstName(), "First Name Failed"),
+                () -> assertEquals("Floriano", person.getLastName(), "Last Name Failed")
+        );
+    }
+
+    @Test
+    void dependencieAssertions(){
+        //given
+        Owner owner = new Owner(3l, "Marcus", "Souza");
+        owner.setCity("Goiania");
+        owner.setTelephone("62996635896");
+
+        //then
+        assertAll("Tests Dependencies",
+                () -> assertAll("Person Properties",
+                        () -> assertEquals("Marcus", owner.getFirstName(), "First Name Failed"),
+                        () -> assertEquals("Souza", owner.getLastName())),
+                () -> assertAll("Owner Properties",
+                        () -> assertEquals("Goiania", owner.getCity(), "City Failed"),
+                        () -> assertEquals("62996635896", owner.getTelephone()))
         );
     }
 }

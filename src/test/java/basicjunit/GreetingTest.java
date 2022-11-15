@@ -1,11 +1,11 @@
-package tdd;
+package basicjunit;
 
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 
 
+import static org.junit.jupiter.api.Assumptions.assumeTrue;
+
+@Tag("basic")
 class GreetingTest {
 
     private Greeting greeting;
@@ -40,4 +40,11 @@ class GreetingTest {
     void afterAll(){
         System.out.println("4 - After All");
     }
+
+    @Test
+    void testAssumptionTrue(){
+        assumeTrue("Jeronima".equalsIgnoreCase("Maria"));
+    }
+
+
 }
