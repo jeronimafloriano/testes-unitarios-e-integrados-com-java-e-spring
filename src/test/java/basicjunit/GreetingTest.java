@@ -36,13 +36,14 @@ class GreetingTest {
         System.out.println("3 - After Each");
     }
 
-    @AfterEach
-    void afterAll(){
+    @AfterAll
+    static void afterAll(){
         System.out.println("4 - After All");
     }
 
     @Test
     void testAssumptionTrue(){
+        System.out.println("Teste testAssumptionTrue");
         assumeTrue("Jeronima".equalsIgnoreCase("Maria"));
     }
 
