@@ -7,7 +7,7 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class AssertionsLambda {
+public class AssertionsLambda  {
 
     @Test
     void lambdaExpressions(){
@@ -20,11 +20,10 @@ public class AssertionsLambda {
 
     @Test
     void groupedAssertions(){
-        int [] numbers = {1,2,3};
+        int [] numbers = {1,2};
         assertAll("numbers",
                 () -> assertEquals(numbers[0], 1),
-                () -> assertEquals(numbers[1], 2),
-                () -> assertEquals(numbers[2], 3)
+                () -> assertEquals(numbers[1], 2)
         );
     }
 

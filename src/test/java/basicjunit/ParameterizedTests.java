@@ -9,7 +9,7 @@ import springframework.sfgpetclinic.model.OwnerType;
 
 import java.util.stream.Stream;
 
-@ExtendWith(TimingExtension.class)
+//@ExtendWith(TimingExtension.class)
 public class ParameterizedTests {
 
     @DisplayName("Value Source Tests")

@@ -20,3 +20,4 @@ Esse repositório contém exemplos de testes utilizando JUnit 5 com Maven.
 * Configuração de condições de execução do teste com @Enabled
 * Parametrizações com @ParameterizedTest
 * Testes de Asserções, Suposições e Exceções
+* Suite de testes

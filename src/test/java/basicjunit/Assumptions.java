@@ -10,13 +10,14 @@ public class Assumptions {
     @Test
     void testAssumptionTrue(){
         System.out.println("Teste testAssumptionTrue");
-        assumeTrue("Jeronima".equalsIgnoreCase("Maria"));
+        //assumeTrue("Jeronima".equalsIgnoreCase("Maria"));
+        assumeTrue("Jeronima".equalsIgnoreCase("Jeronima"));
     }
 
     @Test
     void testAssumptionTrue2(){
         assumeTrue(5 > 1 );
-        assertEquals(5 + 2, 7);
+        assertEquals(1 + 2, 3);
     }
 
     @Test
@@ -27,10 +28,10 @@ public class Assumptions {
 
     @Test
     void testAssumptionThat(){
-        String str = "Just a string";
+        String str = "Uma string qualquer";
         assumingThat(
                 str.equals("Just a string"),
-                () -> assertEquals(2 + 2, 4)
+                () -> assertEquals(2 + 5, 3)
         );
     }
 

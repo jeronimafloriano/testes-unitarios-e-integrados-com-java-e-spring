@@ -9,11 +9,10 @@ public class ExceptionsTests {
 
     @Test
     void deveLançarException(){
-        Throwable exception = assertThrows(UnsupportedOperationException.class, () -> {
-            throw new UnsupportedOperationException("Não suportado!");
+        Throwable exception = assertThrows(IllegalArgumentException.class, () -> {
+            throw new IllegalArgumentException("Valor inválido!");
         });
-
-        assertEquals("Não suportado!", exception.getMessage());
+        assertEquals("Valor inválido!", exception.getMessage());
     }
 
     @Test
