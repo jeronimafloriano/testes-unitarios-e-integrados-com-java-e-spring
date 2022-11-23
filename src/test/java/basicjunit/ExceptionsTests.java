@@ -8,11 +8,11 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 public class ExceptionsTests {
 
     @Test
-    void deveLançarException(){
+    void deveLancarException(){
         Throwable exception = assertThrows(IllegalArgumentException.class, () -> {
-            throw new IllegalArgumentException("Valor inválido!");
+            throw new IllegalArgumentException("Valor invalido");
         });
-        assertEquals("Valor inválido!", exception.getMessage());
+        assertEquals("Valor invalido", exception.getMessage());
     }
 
     @Test

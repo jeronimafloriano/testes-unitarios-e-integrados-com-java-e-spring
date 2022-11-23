@@ -1,19 +1,9 @@
 
-{
-Ksrc/main/java/springframework/sfgpetclinic/controllers/OwnerController.java,e\7\e74d0a7e569e9b0c51794698624dbb1673851c0d
-ç
-]src/main/java/springframework/sfgpetclinic/services/springdatajpa/SpecialitySDJpaService.java,9\9\99e91210f792c96a29e48bef29a3f95fa40fff23
-ä
-Zsrc/main/java/springframework/sfgpetclinic/services/springdatajpa/PetTypeSDJpaService.java,d\8\d872d7bfc3e6ed2976d49d8fc2a83eec742a0dd9
-Ü
-Vsrc/main/java/springframework/sfgpetclinic/services/springdatajpa/PetSDJpaService.java,d\5\d5ee2c93e21d412188354582ae34d90db705dfbb
-à
-Xsrc/main/java/springframework/sfgpetclinic/services/springdatajpa/VisitSDJpaService.java,0\a\0ac5852327a6610843a1fca1d76880a8cdd98255
-Ü
-Vsrc/main/java/springframework/sfgpetclinic/services/springdatajpa/VetSDJpaService.java,b\2\b2904a3b0a8a6c8408df7fca12cdc625b2442dc3
-O
-src/main/java/tdd/Greeting.java,0\1\018e2ba311aaf6644da6b45b689a2b7ec438bc60
-|
-Lsrc/main/java/springframework/sfgpetclinic/repositories/OwnerRepository.java,a\f\aff1bef5a608ab11180782757eeea4f45a2577bd
-à
-Xsrc/main/java/springframework/sfgpetclinic/services/springdatajpa/OwnerSDJpaService.java,c\8\c82dc968b89d5aaa0d2775c326b696e2aa43996d
+Z
+*src/test/java/basicjunit/GreetingTest.java,1\7\177c2c977d733ac4ac1981bf47ebe6873f435ba1
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+`
+0src/test/java/basicjunit/ParameterizedTests.java,a\a\aae11e5c242a876e28c53fc602ad8c4ad209d2ac
+o
+?src/main/java/springframework/sfgpetclinic/model/OwnerType.java,d\9\d9eb65f9338e7890c663d7259adfa7d7245ffe0c

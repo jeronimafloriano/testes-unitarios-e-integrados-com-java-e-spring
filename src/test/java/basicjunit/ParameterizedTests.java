@@ -6,7 +6,6 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.*;
 import springframework.sfgpetclinic.junitextensions.TimingExtension;
 import springframework.sfgpetclinic.model.OwnerType;
-
 import java.util.stream.Stream;
 
 //@ExtendWith(TimingExtension.class)

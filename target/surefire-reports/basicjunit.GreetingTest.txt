@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: tdd.GreetingTest
+Test set: basicjunit.GreetingTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.049 s - in tdd.GreetingTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in basicjunit.GreetingTest

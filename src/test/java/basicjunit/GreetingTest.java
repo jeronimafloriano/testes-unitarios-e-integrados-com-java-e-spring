@@ -2,9 +2,6 @@ package basicjunit;
 
 import org.junit.jupiter.api.*;
 
-
-import static org.junit.jupiter.api.Assumptions.assumeTrue;
-
 @Tag("basic")
 class GreetingTest {
 

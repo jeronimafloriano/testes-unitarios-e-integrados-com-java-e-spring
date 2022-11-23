@@ -1,5 +1,6 @@
 package basicjunit;
 
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
@@ -14,7 +15,8 @@ public class TimeOutTest {
     @Test
     void timeOut(){
         assertTimeout(Duration.ofMillis(100), () -> {
-            Thread.sleep(5000);
+            //Thread.sleep(5000);
+            Thread.sleep(10);
             System.out.println("Here!");
         });
     }
@@ -22,7 +24,8 @@ public class TimeOutTest {
     @Test
     void timeOutPreempt(){
         assertTimeoutPreemptively(Duration.ofMillis(100), () -> {
-            Thread.sleep(5000);
+            //Thread.sleep(5000);
+            Thread.sleep(10);
             System.out.println("Here assertTimeoutPreemptively!");
         });
     }
