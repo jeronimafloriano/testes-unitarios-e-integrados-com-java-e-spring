@@ -1,4 +1,6 @@
 HELP.md
+pom.antigo.xml
+
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/test/**/target/

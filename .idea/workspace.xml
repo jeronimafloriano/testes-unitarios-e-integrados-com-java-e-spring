@@ -5,12 +5,92 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30fe555e-9195-42cd-9bfd-c5ed9c830590" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basicjunit/Greeting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clinic/basicjunit/Greeting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springframework/sfgpetclinic/controllers/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clinic/springframework/petclinic/controllers/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springframework/sfgpetclinic/controllers/OwnerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clinic/springframework/petclinic/controllers/OwnerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springframework/sfgpetclinic/controllers/PetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clinic/springframework/petclinic/controllers/PetController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springframework/sfgpetclinic/controllers/VetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clinic/springframework/petclinic/controllers/VetController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springframework/sfgpetclinic/controllers/VisitController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clinic/springframework/petclinic/controllers/VisitController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springframework/sfgpetclinic/fauxspring/BindingResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clinic/springframework/petclinic/fauxspring/BindingResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springframework/sfgpetclinic/fauxspring/Formatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clinic/springframework/petclinic/fauxspring/Formatter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springframework/sfgpetclinic/fauxspring/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clinic/springframework/petclinic/fauxspring/Model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springframework/sfgpetclinic/fauxspring/ModelAndView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clinic/springframework/petclinic/fauxspring/ModelAndView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springframework/sfgpetclinic/fauxspring/ModelMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clinic/springframework/petclinic/fauxspring/ModelMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springframework/sfgpetclinic/fauxspring/WebDataBinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clinic/springframework/petclinic/fauxspring/WebDataBinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springframework/sfgpetclinic/formatters/PetTypeFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clinic/springframework/petclinic/formatters/PetTypeFormatter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springframework/sfgpetclinic/model/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clinic/springframework/petclinic/model/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springframework/sfgpetclinic/model/Owner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clinic/springframework/petclinic/model/Owner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springframework/sfgpetclinic/model/OwnerType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clinic/springframework/petclinic/model/OwnerType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springframework/sfgpetclinic/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clinic/springframework/petclinic/model/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springframework/sfgpetclinic/model/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clinic/springframework/petclinic/model/Pet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springframework/sfgpetclinic/model/PetType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clinic/springframework/petclinic/model/PetType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springframework/sfgpetclinic/model/Speciality.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clinic/springframework/petclinic/model/Speciality.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springframework/sfgpetclinic/model/Vet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clinic/springframework/petclinic/model/Vet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springframework/sfgpetclinic/model/Visit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clinic/springframework/petclinic/model/Visit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springframework/sfgpetclinic/repositories/CrudRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clinic/springframework/petclinic/repositories/CrudRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springframework/sfgpetclinic/repositories/OwnerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clinic/springframework/petclinic/repositories/OwnerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springframework/sfgpetclinic/repositories/PetRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clinic/springframework/petclinic/repositories/PetRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springframework/sfgpetclinic/repositories/PetTypeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clinic/springframework/petclinic/repositories/PetTypeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springframework/sfgpetclinic/repositories/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clinic/springframework/petclinic/repositories/Repository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springframework/sfgpetclinic/repositories/SpecialtyRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clinic/springframework/petclinic/repositories/SpecialtyRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springframework/sfgpetclinic/repositories/VetRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clinic/springframework/petclinic/repositories/VetRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springframework/sfgpetclinic/repositories/VisitRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clinic/springframework/petclinic/repositories/VisitRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springframework/sfgpetclinic/services/CrudService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clinic/springframework/petclinic/services/CrudService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springframework/sfgpetclinic/services/OwnerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clinic/springframework/petclinic/services/OwnerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springframework/sfgpetclinic/services/PetService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clinic/springframework/petclinic/services/PetService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springframework/sfgpetclinic/services/PetTypeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clinic/springframework/petclinic/services/PetTypeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springframework/sfgpetclinic/services/SpecialtyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clinic/springframework/petclinic/services/SpecialtyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springframework/sfgpetclinic/services/VetService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clinic/springframework/petclinic/services/VetService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springframework/sfgpetclinic/services/VisitService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clinic/springframework/petclinic/services/VisitService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springframework/sfgpetclinic/services/map/AbstractMapService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clinic/springframework/petclinic/services/map/AbstractMapService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springframework/sfgpetclinic/services/map/OwnerMapService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clinic/springframework/petclinic/services/map/OwnerMapService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springframework/sfgpetclinic/services/map/PetMapService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clinic/springframework/petclinic/services/map/PetMapService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springframework/sfgpetclinic/services/map/PetTypeMapService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clinic/springframework/petclinic/services/map/PetTypeMapService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springframework/sfgpetclinic/services/map/SpecialityMapService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clinic/springframework/petclinic/services/map/SpecialityMapService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springframework/sfgpetclinic/services/map/VetMapService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clinic/springframework/petclinic/services/map/VetMapService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springframework/sfgpetclinic/services/map/VisitMapService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clinic/springframework/petclinic/services/map/VisitMapService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springframework/sfgpetclinic/services/springdatajpa/OwnerSDJpaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clinic/springframework/petclinic/services/springdatajpa/OwnerSDJpaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springframework/sfgpetclinic/services/springdatajpa/PetSDJpaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clinic/springframework/petclinic/services/springdatajpa/PetSDJpaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springframework/sfgpetclinic/services/springdatajpa/PetTypeSDJpaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clinic/springframework/petclinic/services/springdatajpa/PetTypeSDJpaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springframework/sfgpetclinic/services/springdatajpa/SpecialitySDJpaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clinic/springframework/petclinic/services/springdatajpa/SpecialitySDJpaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springframework/sfgpetclinic/services/springdatajpa/VetSDJpaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clinic/springframework/petclinic/services/springdatajpa/VetSDJpaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springframework/sfgpetclinic/services/springdatajpa/VisitSDJpaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clinic/springframework/petclinic/services/springdatajpa/VisitSDJpaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/basicjunit/AssertionsLambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/clinic/basicjunit/AssertionsLambda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/basicjunit/Assumptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/clinic/basicjunit/Assumptions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/basicjunit/CheckEnabledTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/clinic/basicjunit/CheckEnabledTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/basicjunit/CustomArgsProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/clinic/basicjunit/CustomArgsProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/basicjunit/ExceptionsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/clinic/basicjunit/ExceptionsTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/basicjunit/GreetingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/clinic/basicjunit/GreetingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/basicjunit/ModelRepeatedTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/clinic/basicjunit/ModelRepeatedTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/basicjunit/ParameterizedTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/clinic/basicjunit/ParameterizedTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/basicjunit/RepeatedTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/clinic/basicjunit/RepeatedTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/basicjunit/SuitesTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/clinic/basicjunit/SuitesTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/basicjunit/TimeOutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/clinic/basicjunit/TimeOutTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/springframework/sfgpetclinic/ControllerTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/clinic/springframework/petclinic/ControllerTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/springframework/sfgpetclinic/controllers/VetControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/clinic/springframework/petclinic/controllers/VetControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/springframework/sfgpetclinic/fauxspring/ModelMapImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/clinic/springframework/petclinic/fauxspring/ModelMapImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/springframework/sfgpetclinic/junitextensions/TimingExtension.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/clinic/springframework/petclinic/junitextensions/TimingExtension.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/springframework/sfgpetclinic/model/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/clinic/springframework/petclinic/model/PersonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/springframework/sfgpetclinic/services/springdatajpa/OwnerMapServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/clinic/springframework/petclinic/services/springdatajpa/OwnerMapServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/springframework/sfgpetclinic/services/springdatajpa/OwnerSDJpaServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/clinic/springframework/petclinic/services/springdatajpa/OwnerSDJpaServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -30,69 +110,111 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.445977&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.445977",
+    "settings.editor.selected.configurable": "File.Encoding"
   }
-}</component>
-  <component name="RunManager" selected="JUnit.TimeOutTest">
-    <configuration name="ExceptionsTests.deveLancarException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="clinic" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.SpringClinicApplicationTest">
+    <configuration name="AssertionsLambda" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tests-java-e-spring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basicjunit.*" />
+          <option name="PATTERN" value="clinic.basicjunit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="basicjunit" />
-      <option name="MAIN_CLASS_NAME" value="basicjunit.ExceptionsTests" />
-      <option name="METHOD_NAME" value="deveLancarException" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExceptionsTests.deveLançarException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tests-java-e-spring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="basicjunit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="basicjunit" />
-      <option name="MAIN_CLASS_NAME" value="basicjunit.ExceptionsTests" />
-      <option name="METHOD_NAME" value="deveLançarException" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TimeOutTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tests-java-e-spring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="basicjunit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="basicjunit" />
-      <option name="MAIN_CLASS_NAME" value="basicjunit.TimeOutTest" />
+      <option name="PACKAGE_NAME" value="clinic.basicjunit" />
+      <option name="MAIN_CLASS_NAME" value="clinic.basicjunit.AssertionsLambda" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AssertionsLambda.lambdaExpressions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tests-java-e-spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="clinic.basicjunit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="clinic.basicjunit" />
+      <option name="MAIN_CLASS_NAME" value="clinic.basicjunit.AssertionsLambda" />
+      <option name="METHOD_NAME" value="lambdaExpressions" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringClinicApplicationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tests-java-e-spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="clinic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="clinic" />
+      <option name="MAIN_CLASS_NAME" value="clinic.SpringClinicApplicationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="clinic in tests-java-e-spring" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tests-java-e-spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="clinic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="clinic" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="clinic.springframework.petclinic in tests-java-e-spring" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tests-java-e-spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="clinic.springframework.petclinic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="clinic.springframework.petclinic" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TimeOutTest" />
-        <item itemvalue="JUnit.ExceptionsTests.deveLancarException" />
-        <item itemvalue="JUnit.ExceptionsTests.deveLançarException" />
+        <item itemvalue="JUnit.SpringClinicApplicationTest" />
+        <item itemvalue="JUnit.AssertionsLambda" />
+        <item itemvalue="JUnit.AssertionsLambda.lambdaExpressions" />
+        <item itemvalue="JUnit.clinic in tests-java-e-spring" />
+        <item itemvalue="JUnit.clinic.springframework.petclinic in tests-java-e-spring" />
       </list>
     </recent_temporary>
   </component>
@@ -106,5 +228,16 @@
       <updated>1669202045602</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
