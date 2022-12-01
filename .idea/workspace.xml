@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30fe555e-9195-42cd-9bfd-c5ed9c830590" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/7/177c2c977d733ac4ac1981bf47ebe6873f435ba1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/a/aae11e5c242a876e28c53fc602ad8c4ad209d2ac" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/9/d9eb65f9338e7890c663d7259adfa7d7245ffe0c" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/clinic/springframework/petclinic/services/springdatajpa/SpecialitySDJpaServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/clinic/springframework/petclinic/services/springdatajpa/SpecialitySDJpaServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -70,56 +67,8 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.VetSDJpaServiceTest">
-    <configuration name="AnnotationMockTest.testAnnotationMock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tests-java-e-spring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="clinic.mocks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="clinic.mocks" />
-      <option name="MAIN_CLASS_NAME" value="clinic.mocks.AnnotationMockTest" />
-      <option name="METHOD_NAME" value="testAnnotationMock" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExtensionMockTest.testExtesionMock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tests-java-e-spring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="clinic.mocks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="clinic.mocks" />
-      <option name="MAIN_CLASS_NAME" value="clinic.mocks.ExtensionMockTest" />
-      <option name="METHOD_NAME" value="testExtesionMock" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InlineMockTest.testInlineMock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tests-java-e-spring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="clinic.mocks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="clinic.mocks" />
-      <option name="MAIN_CLASS_NAME" value="clinic.mocks.InlineMockTest" />
-      <option name="METHOD_NAME" value="testInlineMock" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpecialitySDJpaServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.VisitSDJpaServiceTest">
+    <configuration name="VisitSDJpaServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tests-java-e-spring" />
       <extension name="coverage">
         <pattern>
@@ -128,13 +77,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="clinic.springframework.petclinic.services.springdatajpa" />
-      <option name="MAIN_CLASS_NAME" value="clinic.springframework.petclinic.services.springdatajpa.SpecialitySDJpaServiceTest" />
+      <option name="MAIN_CLASS_NAME" value="clinic.springframework.petclinic.services.springdatajpa.VisitSDJpaServiceTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VetSDJpaServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VisitSDJpaServiceTest.deleteByIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tests-java-e-spring" />
       <extension name="coverage">
         <pattern>
@@ -143,19 +92,68 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="clinic.springframework.petclinic.services.springdatajpa" />
-      <option name="MAIN_CLASS_NAME" value="clinic.springframework.petclinic.services.springdatajpa.VetSDJpaServiceTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="clinic.springframework.petclinic.services.springdatajpa.VisitSDJpaServiceTest" />
+      <option name="METHOD_NAME" value="deleteByIdTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VisitSDJpaServiceTest.findAllTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tests-java-e-spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="clinic.springframework.petclinic.services.springdatajpa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="clinic.springframework.petclinic.services.springdatajpa" />
+      <option name="MAIN_CLASS_NAME" value="clinic.springframework.petclinic.services.springdatajpa.VisitSDJpaServiceTest" />
+      <option name="METHOD_NAME" value="findAllTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VisitSDJpaServiceTest.findByIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tests-java-e-spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="clinic.springframework.petclinic.services.springdatajpa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="clinic.springframework.petclinic.services.springdatajpa" />
+      <option name="MAIN_CLASS_NAME" value="clinic.springframework.petclinic.services.springdatajpa.VisitSDJpaServiceTest" />
+      <option name="METHOD_NAME" value="findByIdTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VisitSDJpaServiceTest.saveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tests-java-e-spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="clinic.springframework.petclinic.services.springdatajpa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="clinic.springframework.petclinic.services.springdatajpa" />
+      <option name="MAIN_CLASS_NAME" value="clinic.springframework.petclinic.services.springdatajpa.VisitSDJpaServiceTest" />
+      <option name="METHOD_NAME" value="saveTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.VetSDJpaServiceTest" />
-        <item itemvalue="JUnit.SpecialitySDJpaServiceTest" />
-        <item itemvalue="JUnit.ExtensionMockTest.testExtesionMock" />
-        <item itemvalue="JUnit.AnnotationMockTest.testAnnotationMock" />
-        <item itemvalue="JUnit.InlineMockTest.testInlineMock" />
+        <item itemvalue="JUnit.VisitSDJpaServiceTest" />
+        <item itemvalue="JUnit.VisitSDJpaServiceTest.findAllTest" />
+        <item itemvalue="JUnit.VisitSDJpaServiceTest.deleteByIdTest" />
+        <item itemvalue="JUnit.VisitSDJpaServiceTest.findByIdTest" />
+        <item itemvalue="JUnit.VisitSDJpaServiceTest.saveTest" />
       </list>
     </recent_temporary>
   </component>
@@ -180,5 +178,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/tests_java_e_spring$VisitSDJpaServiceTest.ic" NAME="VisitSDJpaServiceTest Coverage Results" MODIFIED="1669932969361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>clinic.springframework.petclinic.services.springdatajpa.*</FILTER>
+    </SUITE>
   </component>
 </project>
