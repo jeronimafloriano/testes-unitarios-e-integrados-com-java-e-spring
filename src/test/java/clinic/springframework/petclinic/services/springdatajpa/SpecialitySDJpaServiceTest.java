@@ -3,6 +3,7 @@ package clinic.springframework.petclinic.services.springdatajpa;
 import clinic.springframework.petclinic.model.Speciality;
 import clinic.springframework.petclinic.repositories.SpecialtyRepository;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
@@ -12,6 +13,7 @@ import java.util.Optional;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.*;
+import static org.mockito.BDDMockito.given;
 import static org.mockito.Mockito.*;
 
 class SpecialitySDJpaServiceTest {
@@ -99,6 +101,50 @@ class SpecialitySDJpaServiceTest {
         verify(specialtyRepository).findById(2L);
         assertThat(foundSpeciality).isNotNull();
         assertThat(foundSpeciality).isEqualTo(speciality);
+
+    }
+
+    @DisplayName("Test whith lambda")
+    @Test
+    void testSaveLambda(){
+        //given
+        final String MATCH_ME = "MATCH_ME";
+        Speciality speciality = new Speciality();
+        speciality.setDescription(MATCH_ME);
+
+        Speciality savedSpeciality = new Speciality();
+        savedSpeciality.setId(2L);
+
+        given(specialtyRepository.save(argThat(argument ->
+                argument.getDescription().equals(MATCH_ME)))).willReturn(savedSpeciality);
+
+        //when
+        Speciality returnedSpeciality = service.save(speciality);
+
+        //then
+        assertThat(returnedSpeciality.getId()).isEqualTo(2L);
+
+    }
+
+    @DisplayName("Test whith lambda two")
+    @Test
+    void testSaveLambdaNoMatch(){
+        //given
+        final String MATCH_ME = "MATCH_ME";
+        Speciality speciality = new Speciality();
+        speciality.setDescription("Not a match");
+
+        Speciality savedSpeciality = new Speciality();
+        savedSpeciality.setId(1L);
+
+        given(specialtyRepository.save(argThat(argument ->
+                argument.getDescription().equals(MATCH_ME)))).willReturn(savedSpeciality);
+
+        //when
+        Speciality returnedSpeciality = service.save(speciality);
+
+        //then
+        assertNull(returnedSpeciality);
 
     }
 

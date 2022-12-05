@@ -14,11 +14,11 @@ import java.util.Optional;
 import java.util.Set;
 
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.ArgumentMatchers.anyLong;
-import static org.mockito.BDDMockito.given;
-import static org.mockito.BDDMockito.then;
+import static org.mockito.BDDMockito.*;
 import static org.mockito.Mockito.*;
 
 @ExtendWith(MockitoExtension.class)
@@ -107,5 +107,41 @@ public class VisitSDJpaServiceTest {
         //then
         then(repository).should(times(2)).deleteById(3L);
         then(repository).should(never()).deleteById(null);
+    }
+
+    @DisplayName("Test 'delete' Throws With Mockito")
+    @Test
+    void deleteDoThrowTest(){
+        doThrow(new RuntimeException("oops")).when(repository).delete(any());
+
+        assertThrows(RuntimeException.class, () -> repository.delete(new Visit()));
+
+        verify(repository).delete(any());
+    }
+
+    @DisplayName("Test 'find by id' Throws With BDD Mockito")
+    @Test
+    void findByIdDoThrowTestMockito(){
+        //given
+        given(repository.findById(1L)).willThrow(new RuntimeException("oops"));
+
+        //when
+        assertThrows(RuntimeException.class, () -> service.findById(1L));
+
+        //then
+        then(repository).should().findById(1L);
+    }
+
+    @DisplayName("Test 'delete' Throws With BDD Mockito")
+    @Test
+    void deleteDoThrowTestBDDMockito(){
+        //given
+        willThrow(new RuntimeException("oops")).given(repository).delete(any());
+
+        //when
+        assertThrows(RuntimeException.class, () -> repository.delete(new Visit()));
+
+        //then
+        then(repository).should().delete((any()));
     }
 }
