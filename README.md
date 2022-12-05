@@ -2,8 +2,8 @@
 
 # Introduction to JUnit 5 with Maven
 
-Esse repositório contém exemplos de testes utilizando JUnit 5 com Maven.
-Também foi realizada a implementação de um pipeline de testes com CircleCI
+Esse repositório contém exemplos de testes unitários e integrados no Java utilizando JUnit 5, Mockito e Maven.
+Também foi realizada a implementação de um pipeline de testes com CircleCI.
 
 ## Setup
 ### Requerimentos
