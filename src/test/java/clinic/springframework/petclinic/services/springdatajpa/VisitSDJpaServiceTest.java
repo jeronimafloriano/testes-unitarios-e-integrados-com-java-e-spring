@@ -43,7 +43,7 @@ public class VisitSDJpaServiceTest {
         Set<Visit> foundVisits = service.findAll();
 
         //then
-        then(repository).should().findAll();
+        then(repository).should(timeout(300).atLeastOnce()).findAll();
         assertTrue(foundVisits.contains(visit));
         assertThat(foundVisits).hasSize(1);
     }
@@ -105,7 +105,7 @@ public class VisitSDJpaServiceTest {
         service.deleteById(3L);
 
         //then
-        then(repository).should(times(2)).deleteById(3L);
+        then(repository).should(timeout(200).times(2)).deleteById(3L);
         then(repository).should(never()).deleteById(null);
     }
 
