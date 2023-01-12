@@ -2,7 +2,7 @@
 
 # Introduction to JUnit 5 with Maven
 
-Esse repositório contém exemplos de testes unitários e integrados no Java utilizando Mockito.
+Esse repositório contém exemplos de testes unitários e integrados no Java utilizando Mockito e Spring.
 Também foi realizada a implementação de um pipeline de testes com CircleCI.
 
 ## Setup
