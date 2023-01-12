@@ -1,6 +1,6 @@
 [![CircleCI](https://dl.circleci.com/status-badge/img/gh/jeronimafloriano/tests-java-e-spring/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/jeronimafloriano/tests-java-e-spring/tree/master)
 
-# Introduction to JUnit 5 with Maven
+# Testes no Java
 
 Esse repositório contém exemplos de testes unitários e integrados no Java utilizando Mockito e Spring.
 Também foi realizada a implementação de um pipeline de testes com CircleCI.
