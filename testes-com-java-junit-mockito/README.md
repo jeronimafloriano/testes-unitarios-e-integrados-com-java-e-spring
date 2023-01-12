@@ -1,9 +1,7 @@
-[![CircleCI](https://dl.circleci.com/status-badge/img/gh/jeronimafloriano/tests-java-e-spring/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/jeronimafloriano/tests-java-e-spring/tree/master)
 
 # Testes no Java com JUnit 5 e Maven
 
 Esse repositório contém exemplos de testes unitários e integrados no Java utilizando JUnit 5.
-Também foi realizada a implementação de um pipeline de testes com CircleCI.
 
 ## Setup
 ### Requerimentos
